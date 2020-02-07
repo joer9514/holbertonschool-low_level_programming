@@ -13,7 +13,7 @@ while (n1 < 10)
 putchar(n1 + '0');
 n1++;
 }
-while (L <= 'g')
+while (L < 'g')
 {
 putchar(L);
 L++;
