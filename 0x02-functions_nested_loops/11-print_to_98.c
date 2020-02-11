@@ -16,10 +16,6 @@ if (n != 98)
 {
 printf(", ");
 }
-if (n == 98)
-{
-printf("\n");
-}
 n++;
 }
 }
@@ -35,4 +31,9 @@ printf(", ");
 n--;
 }
 }
+else
+{
+printf("98");
+}
+printf("\n");
 }
