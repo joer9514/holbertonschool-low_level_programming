@@ -2,7 +2,7 @@
 /**
   * _isupper - First file
   * @c: var
-  * Return: 0
+  * Return: 1 - 0
   */
 int _isupper(int c)
 {
@@ -10,8 +10,9 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else
+	else if (c == 'a')
 	{
 		return (0);
 	}
+	return (0);
 }
