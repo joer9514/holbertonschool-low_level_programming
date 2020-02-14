@@ -8,7 +8,7 @@ int main(void)
 {
 	int rango;
 
-	for (rango =1; rango < 101; rango++)
+	for (rango = 1; rango < 101; rango++)
 	{
 		if (rango % 3 == 0 && rango % 5 == 0)
 		{
