@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-  * print_chessboard
+  * print_chessboard - exercise 7
   * @a: var 1
   * Return: void
   */
