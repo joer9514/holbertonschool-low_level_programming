@@ -18,7 +18,9 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 		else
+		{
 			acu += atoi(argv[i]);
+		}
 	}
 	printf("%d\n", acu);
 	return (0);
