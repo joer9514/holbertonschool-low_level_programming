@@ -12,14 +12,14 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		if (!(*argv[i] >= '0' && *argv[i] <= '9'))
+		if (*argv[i] >= '0' && *argv[i] <= '9')
 		{
-			printf("Error\n");
-			return (1);
+			acu += atoi(argv[i]);
 		}
 		else
 		{
-			acu += atoi(argv[i]);
+			printf("Error\n");
+			return (1);
 		}
 	}
 	printf("%d\n", acu);
