@@ -7,7 +7,7 @@
  * @argv: argumentos
  * Return: int
  */
-int  main(int argc, char __attribute__ ((unused)) *argv[])
+int  main(int argc, char *argv[])
 {
 
 	if (argc == 3)
