@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - advanced 100
+ * Description: advanced exercise
+ * Return: int
+ */
 int main(void)
 {
 	int n;
