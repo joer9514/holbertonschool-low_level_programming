@@ -1,7 +1,12 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/*Typedef structs*/
+/**
+ * struct lists_linked - list linked
+ * @str: pointer
+ * @len: lenght
+ * @next: pointer struct
+ */
 typedef struct lists_linked
 {
 	char *str;
