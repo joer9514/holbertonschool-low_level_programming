@@ -19,3 +19,18 @@ list_t *add_node(list_t **head, const char *str)
 	*head = new_node;
 	return (new_node);
 }
+/**
+ * _strlen - function that returns the length of a string.
+ * @s : s is a character
+ * Return: value is i
+ */
+int _strlen(const char *s)
+{
+	int i;
+
+	while (*(s + i))
+	{
+		i++;
+	}
+	return (i);
+}
