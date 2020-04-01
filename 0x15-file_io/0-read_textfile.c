@@ -41,6 +41,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 		if (writer < 0)
 			return (0);
+		return (writer);
 	}
-	return (writer);
 }
