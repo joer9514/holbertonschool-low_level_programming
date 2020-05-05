@@ -1,7 +1,6 @@
-#ifndef _HOLBERTON_H
-#define _HOLBERTON_H
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
-/* Prototype */
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -24,4 +23,3 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
 #endif
-
