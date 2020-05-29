@@ -1,5 +1,5 @@
 #include "hash_tables.h"
-
+#include <stdio.h>
 /**
  * grab_value - return value string associated whit a key
  * @hn: pointer to hash node
